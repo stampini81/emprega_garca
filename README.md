@@ -61,4 +61,4 @@ Este repositório contém o estudo de caso, scripts e resultados dos testes auto
 - Para dúvidas ou melhorias, consulte o README ou abra uma issue.
 
 ## Autor
-Automação gerada por GitHub Copilot
+Leandro da Silva Stampini
