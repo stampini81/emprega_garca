@@ -53,9 +53,7 @@ Este repositório contém o estudo de caso, scripts e resultados dos testes auto
 - Testes de login bloqueados pelo captcha.
 - Relatórios de performance e vulnerabilidade disponíveis nos arquivos de resultado.
 
-## Credenciais de Teste
-- Usuário: larissa.luz
-- Senha: g@rcaF@TEC0825
+
 
 ## Observações
 - Estrutura pronta para expandir cenários e scripts.
