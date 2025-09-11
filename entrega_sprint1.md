@@ -95,8 +95,4 @@ Sprint 1
 
 ---
 
-**Instruções para entrega:**  
-- Copie este texto para um cartão/documento no Trello do grupo.  
-- Anexe o mapa mental (pode ser uma imagem baseada neste roteiro).  
-- Atualize a tabela de contribuição se necessário.  
-- Certifique-se de que todos os membros revisaram e concordam com as informações.
+
