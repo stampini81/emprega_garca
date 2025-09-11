@@ -2,21 +2,41 @@
 
 ## 1. Mapa Mental das Tarefas (Sprint 1)
 
-- **Testes Funcionais**
-  - Login (Ruby, Selenium, RSpec, Playwright, Appium)
-  - Navegação (Cucumber, Selenium)
-  - Público (Cucumber)
-- **Testes de Carga/Stress**
-  - JMeter (login)
-  - K6 (login)
-- **Automação Mobile**
-  - Appium (login)
-- **Scripts de Exemplo**
-  - login.feature, navegação.feature, publico.feature
-- **Desafios**
-  - Captcha impede automação total do login
-- **Documentação**
-  - README.md, sonarqube.md
+```text
+Sprint 1
+│
+├── Testes Funcionais
+│   ├── Login
+│   │   ├── Ruby
+│   │   ├── Selenium
+│   │   ├── RSpec
+│   │   ├── Playwright
+│   │   └── Appium
+│   ├── Navegação
+│   │   ├── Cucumber
+│   │   └── Selenium
+│   └── Público
+│       └── Cucumber
+│
+├── Testes de Carga/Stress
+│   ├── JMeter (login)
+│   └── K6 (login)
+│
+├── Automação Mobile
+│   └── Appium (login)
+│
+├── Scripts de Exemplo
+│   ├── login.feature
+│   ├── navegação.feature
+│   └── publico.feature
+│
+├── Desafios
+│   └── Captcha impede automação total do login
+│
+└── Documentação
+    ├── README.md
+    └── sonarqube.md
+```
 
 ---
 
