@@ -1,4 +1,3 @@
-
 # emprega.garca.gov.br - Automação de Testes
 
 Este repositório contém o estudo de caso, scripts e resultados dos testes automatizados para o site emprega.garca.gov.br.
@@ -62,3 +61,4 @@ Este repositório contém o estudo de caso, scripts e resultados dos testes auto
 
 ## Autor
 Leandro da Silva Stampini
+
