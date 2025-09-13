@@ -109,7 +109,7 @@ Garantir a qualidade do portal por meio de testes manuais e automatizados, segui
 | INC01| Links de redes sociais "Messenger", "LinkedIn", "Pinterest", "Snapchat", "TikTok" aparecem com `href="#"` e classe `display-none_v2`, mas ainda são renderizados no HTML. | Baixa      | Aberto   | Douglas             | ok|
 | INC02| O campo de busca do topo não possui ação definida (`action=""`), não executa busca real.      | Média      | Aberto   | Igor                |
 | INC03| O modal de cookies pode sobrepor elementos em telas pequenas, dificultando a navegação.       | Média      | Aberto   | Gabriel             |
-| INC04| O botão "Ver Localização" no rodapé leva para `/fale-conosco/`, que pode não ser o esperado.  | Baixa      | Aberto   | Leandro Stampini    |ok|
+| INC04| O botão "Ver Localização" no rodapé leva para `/fale-conosco/`, que pode não ser o esperado.  | Baixa      | Aberto   | Leandro Stampini .....   |ok|
 | INC05| O iframe do Facebook pode não carregar corretamente em conexões lentas ou com bloqueadores.   | Baixa      | Aberto   | Douglas             |
 | INC06| Falta de feedback visual ao clicar nos botões de cookies (Aceitar, Personalizar, Rejeitar).   | Baixa      | Aberto   | Igor                |
 | INC07| Alguns textos alternativos de imagens estão genéricos ou ausentes.                            | Baixa      | Aberto   | Gabriel             |
