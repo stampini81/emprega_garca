@@ -111,7 +111,7 @@ Garantir a qualidade do portal por meio de testes manuais e automatizados, segui
 | INC03| O modal de cookies pode sobrepor elementos em telas pequenas, dificultando a navegação.       | Média      | Aberto   | Gabriel             ||
 | INC04| O botão "Ver Localização" no rodapé leva para `/fale-conosco/`, que pode não ser o esperado.  | Baixa      | Aberto   | Leandro Stampini |✅|
 | INC05| O iframe do Facebook pode não carregar corretamente em conexões lentas ou com bloqueadores.   | Baixa      | Aberto   | Douglas             ||
-| INC06| Falta de feedback visual ao clicar nos botões de cookies (Aceitar, Personalizar, Rejeitar).   | Baixa      | Aberto   | Igor                ||
+| INC06| Falta de feedback visual ao clicar nos botões de cookies (Aceitar, Personalizar, Rejeitar).   | Baixa      | Aberto   | Igor                |❌|
 | INC07| Alguns textos alternativos de imagens estão genéricos ou ausentes.                            | Baixa      | Aberto   | Gabriel             ||
 
 ---
