@@ -30,4 +30,3 @@ Mapa mental — Tratativas de 19/09/2025
     - `README_TrabalhadoHoje.md`
     - `MINDMAP.md`
 
-Use este mapa como roteiro para as próximas ações. Para qualquer uma das soluções, posso implementar e testar automaticamente — diga qual prefere.
