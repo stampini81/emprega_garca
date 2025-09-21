@@ -1,0 +1,32 @@
+Mapa mental — Tratativas de 19/09/2025
+
+- Objetivo: executar todos os testes do repositório
+  - Detectar ambiente
+    - Node (ok)
+    - Java (ok)
+    - Ruby/Bundler/rspec/cucumber (faltando)
+  - Playwright
+    - instalar dependências
+    - baixar Chromium
+    - configurar `playwright.config.js`
+    - rodar testes em `./playwright`
+  - Problema encontrado
+    - Login protegido por captcha
+      - Timeout ao tentar preencher campos
+      - OCR tentado com `tesseract.js`
+      - Possíveis causas:
+        - captcha em canvas
+        - captcha distorcido
+        - seletor incorreto
+  - Soluções propostas
+    - Depuração headful e inspeção de seletor
+    - Pré-processamento de imagem (sharp/jimp) + Tesseract
+    - Bypass: desativar captcha no ambiente de testes
+    - Login por API / cookie
+    - Uso de serviços externos de resolução de captcha
+  - Artefatos criados
+    - `playwright.config.js`
+    - `playwright/login.spec.js` (OCR)
+    - `README_TrabalhadoHoje.md`
+    - `MINDMAP.md`
+
