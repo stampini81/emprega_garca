@@ -56,27 +56,27 @@ Este repositório contém o estudo de caso, scripts e resultados dos testes auto
 
 - **Testes Cucumber (funcionais e públicos):**
   - Resultados no terminal após execução dos comandos em `features/`.
-  - Logs e relatórios (se configurados): `features/reports/`
+  - Logs e relatórios (se configurados): [`features/reports/`](features/reports/)
 
 - **Testes RSpec (unitários/funcionais):**
   - Resultados no terminal após rodar `bundle exec rspec`.
-  - Relatórios customizados: `spec/reports/`
+  - Relatórios customizados: [`spec/reports/`](spec/reports/)
 
 - **Testes de carga K6:**
-  - Relatório JSON: `resultado_k6.json` (raiz do projeto)
-  - Relatório HTML: `k6/relatorio_html/index.html`
+  - Relatório JSON: [`resultado_k6.json`](resultado_k6.json)
+  - Relatório HTML: [`k6/relatorio_html/index.html`](k6/relatorio_html/index.html)
 
 - **Testes de carga JMeter:**
-  - Relatório bruto: `resultado_jmeter.jtl` (raiz do projeto)
-  - Relatório HTML: `jmeter/relatorio_html/index.html`
+  - Relatório bruto: [`resultado_jmeter.jtl`](resultado_jmeter.jtl)
+  - Relatório HTML: [`jmeter/relatorio_html/index.html`](jmeter/relatorio_html/index.html)
 
 - **Testes mobile (Appium):**
-  - Resultados no terminal e, se configurado, em `appium/reports/`
+  - Resultados no terminal e, se configurado, em [`appium/reports/`](appium/reports/)
 
 - **Análise de vulnerabilidade (SonarQube):**
   - Resultados disponíveis no painel do SonarQube ou exportados conforme configuração.
 
-> Consulte cada pasta indicada acima para visualizar os arquivos de resultado e relatórios de cada tipo de teste.
+> Clique nos links acima para abrir diretamente os arquivos ou pastas de resultados no repositório.
 
 ---
 
