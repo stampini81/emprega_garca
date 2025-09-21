@@ -1,4 +1,3 @@
-
 # emprega.garca.gov.br - Automação de Testes
 
 Este repositório contém o estudo de caso, scripts e resultados dos testes automatizados para o site emprega.garca.gov.br.
@@ -53,7 +52,33 @@ Este repositório contém o estudo de caso, scripts e resultados dos testes auto
 - Testes de login bloqueados pelo captcha.
 - Relatórios de performance e vulnerabilidade disponíveis nos arquivos de resultado.
 
+## Onde encontrar os resultados dos testes
 
+- **Testes Cucumber (funcionais e públicos):**
+  - Resultados no terminal após execução dos comandos em `features/`.
+  - Para logs detalhados, consulte arquivos gerados em `features/reports/` (se configurado).
+
+- **Testes RSpec (unitários/funcionais):**
+  - Resultados no terminal após rodar `bundle exec rspec`.
+  - Relatórios customizados podem ser encontrados em `spec/reports/` (se configurado).
+
+- **Testes de carga K6:**
+  - Relatório JSON: `resultado_k6.json` na raiz do projeto.
+  - Relatório HTML (se gerado): `k6/relatorio_html/index.html`.
+
+- **Testes de carga JMeter:**
+  - Relatório bruto: `resultado_jmeter.jtl` na raiz do projeto.
+  - Relatório HTML: `jmeter/relatorio_html/index.html`.
+
+- **Testes mobile (Appium):**
+  - Resultados no terminal e, se configurado, em `appium/reports/`.
+
+- **Análise de vulnerabilidade (SonarQube):**
+  - Resultados disponíveis no painel do SonarQube ou exportados conforme configuração.
+
+> Consulte cada pasta específica para mais detalhes e exemplos de relatórios.
+
+---
 
 ## Observações
 - Estrutura pronta para expandir cenários e scripts.
