@@ -1,3 +1,4 @@
+// Arquivo movido para docs/sonarqube.md
 # SonarQube
 
 Para análise de vulnerabilidade e qualidade do código Ruby:

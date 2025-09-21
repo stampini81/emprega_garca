@@ -1,3 +1,4 @@
+// Arquivo movido para docs/entrega_sprint1.md
 # Entrega Sprint 1 – emprega.garca.gov.br
 
 ## 1. Mapa Mental das Tarefas (Sprint 1)

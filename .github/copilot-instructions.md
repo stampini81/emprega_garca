@@ -1,3 +1,4 @@
+// Arquivo movido para docs/copilot-instructions.md
 # Copilot Instructions
 
 Automated testing workspace for emprega.garca.gov.br

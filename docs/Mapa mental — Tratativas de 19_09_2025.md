@@ -1,3 +1,4 @@
+// Arquivo movido para docs/Mapa mental — Tratativas de 19_09_2025.md
 # Mapa mental — Tratativas de 19/09/2025
 
 ## Objetivo e visão geral dos testes

@@ -1,3 +1,4 @@
+// Arquivo movido para docs/MINDMAP.md
 Mapa mental — Tratativas de 19/09/2025
 
 - Objetivo: executar todos os testes do repositório

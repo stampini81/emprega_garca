@@ -1,3 +1,4 @@
+// Arquivo movido para docs/estudo_caso.md
 # Projeto: Testes Portal Secretaria de Desenvolvimento Econômico de GARÇA
 
 Este diretório é destinado à documentação, scripts e automações de testes manuais e automatizados do portal.

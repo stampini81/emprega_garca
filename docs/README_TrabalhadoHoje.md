@@ -1,3 +1,4 @@
+// Arquivo movido para docs/README_TrabalhadoHoje.md
 Resumo das tratativas realizadas em 19/09/2025
 
 Objetivo

@@ -24,3 +24,4 @@ gem 'fiddle'
 gem 'ostruct'
 gem 'win32ole'
 # Adicione outras gems conforme necessário
+gem 'google-cloud-vision'

@@ -1,6 +1,6 @@
 require 'selenium-webdriver'
 require 'open-uri'
-require 'rtesseract'
+require 'google/cloud/vision'
 require 'uri'
 require 'mini_magick'
 Dado('que estou na página de login') do
@@ -40,19 +40,13 @@ Quando('preencho o usuário {string} e a senha {string}') do |usuario, senha|
       sleep 0.2
     end
   end
-  captcha_text = RTesseract.new('captcha_processed.png').to_s.strip
-  puts "Captcha reconhecido: #{captcha_text}"
+  # Reconhecimento OCR usando Google Cloud Vision
+  image_annotator = Google::Cloud::Vision.image_annotator
+  response = image_annotator.text_detection image: 'captcha_processed.png'
+  captcha_text = response.responses.first.text_annotations.first&.description&.strip
+  puts "Captcha reconhecido pela Google Vision: #{captcha_text}"
   wait.until { @driver.find_element(:id, 'captchaConta').displayed? }
   @driver.find_element(:id, 'captchaConta').clear
-  @driver.find_element(:id, 'captchaConta').send_keys(captcha_text)
-  # Pré-processamento: converter para preto e branco e aplicar threshold
-  image = MiniMagick::Image.open('captcha.png')
-  image.colorspace 'Gray'
-  image.threshold '50%'
-  image.write('captcha_processed.png')
-  captcha_text = RTesseract.new('captcha_processed.png').to_s.strip
-  puts "Captcha reconhecido: #{captcha_text}"
-  wait.until { @driver.find_element(:id, 'captchaConta').displayed? }
   @driver.find_element(:id, 'captchaConta').send_keys(captcha_text)
 end
 
