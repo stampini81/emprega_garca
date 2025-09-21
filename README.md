@@ -85,6 +85,12 @@ Este repositório contém o estudo de caso, scripts e resultados dos testes auto
 - Siga boas práticas de automação.
 - Para dúvidas ou melhorias, consulte o README ou abra uma issue.
 
+## Repositório no GitHub
+
+- Repositório principal: [https://github.com/stampini81/emprega_garca](https://github.com/stampini81/emprega_garca)
+
+> Todos os scripts, relatórios e documentação estão versionados neste repositório. Consulte as pastas e instruções acima para localizar os resultados de cada teste.
+
 ## Autor
 Leandro da Silva Stampini
 
