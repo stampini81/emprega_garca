@@ -1,3 +1,5 @@
+# Não versionar credenciais do Google Cloud
+google-vision-key.json
 # *.png
 *.jpg
 *.jpeg
