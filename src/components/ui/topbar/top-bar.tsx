@@ -1,9 +1,9 @@
 import { Facebook, Instagram } from 'lucide-react';
-import { FaWhatsapp } from 'react-icons/fa'; // for real WhatsApp logo
+import { FaWhatsapp } from 'react-icons/fa';
 
 export function TopBar() {
   return (
-    <div className='w-screen h-8 bg-blue-700 flex items-center justify-end px-6 gap-2'>
+    <div className='w-screen h-12 bg-blue-700 flex items-center justify-end px-6 gap-2'>
       <a
         href='https://wa.me/5511999999999'
         target='_blank'

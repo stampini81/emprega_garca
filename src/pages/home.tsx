@@ -4,7 +4,7 @@ import { TopBar } from '@/components/ui/topbar/top-bar';
 
 export function HomePage() {
   return (
-    <div className='bg-slate-600 w-screen'>
+    <div className='bg-gray-100 '>
       <TopBar />
       <HeaderLogo />
       <Navbar />

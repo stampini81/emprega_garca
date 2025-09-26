@@ -3,7 +3,7 @@ import { Search } from 'lucide-react';
 
 export function HeaderLogo() {
   return (
-    <header className='w-screen bg-gray-100 shadow-md'>
+    <header className='w-screen bg-gray-100'>
       <div className='flex items-center justify-between px-6 py-3 ml-5 mr-5'>
         <Link to='/' className='flex items-center gap-3 w-96'>
           <img

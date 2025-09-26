@@ -2,8 +2,8 @@ import { Link } from 'react-router-dom';
 
 export function Navbar() {
   return (
-    <nav className='w-screen bg-transparent'>
-      <div className='m-3 rounded-xl bg-white text-black h-10 flex items-center justify-center gap-6 px-6'>
+    <nav className='w-screen bg-transparent p-4'>
+      <div className='rounded-xl bg-white text-black h-12 flex items-center justify-center gap-6 px-6'>
         <Link to='/' className='rounded px-2 py-1 hover:bg-gray-100'>
           Início
         </Link>
