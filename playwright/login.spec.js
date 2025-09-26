@@ -2,8 +2,8 @@ const { test, expect } = require('@playwright/test');
 const Tesseract = require('tesseract.js');
 const fs = require('fs');
 
-test('Login emprega.garca.gov.br (with OCR)', async ({ page }) => {
-  await page.goto('https://www.emprega.garca.sp.gov.br/b7W1p8V4');
+test('Login emprega.garca.sp.gov.br (with OCR)', async ({ page }) => {
+  await page.goto('https://emprega.garca.sp.gov.br/');
 
   // Wait for captcha image to load (assumes selector img#captcha or similar)
   const captchaImg = await page.locator('img#captcha').first();

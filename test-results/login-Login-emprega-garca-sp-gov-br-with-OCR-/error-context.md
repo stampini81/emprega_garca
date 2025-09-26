@@ -1,0 +1,637 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - link "Ir para o Topo":
+    - /url: "#primeira-div_v2"
+  - link "Ir para o Topo":
+    - /url: "#main-menu_v2"
+  - generic [ref=e2]:
+    - link "" [ref=e3] [cursor=pointer]:
+      - /url: https://wa.me/5514981980802
+      - generic [ref=e4] [cursor=pointer]: 
+    - generic [ref=e6] [cursor=pointer]: 
+    - text: 
+  - generic [ref=e7]:
+    - generic:
+      - img "Conteúdo acessível em libras usando o VLibras Widget com opções dos Avatares Ícaro ou Hozana."
+  - generic [ref=e8] [cursor=pointer]:
+    - text:  
+    - generic [ref=e11] [cursor=pointer]: 
+    - generic [ref=e14] [cursor=pointer]: 
+    - generic [ref=e17] [cursor=pointer]: 
+    - generic [ref=e20] [cursor=pointer]: 
+    - generic [ref=e24] [cursor=pointer]: 
+    - generic [ref=e28] [cursor=pointer]: 
+    - link "" [ref=e29] [cursor=pointer]:
+      - /url: /mapa-site/
+      - generic [ref=e32] [cursor=pointer]: 
+    - link "" [ref=e33] [cursor=pointer]:
+      - /url: ""
+      - generic [ref=e36] [cursor=pointer]: 
+  - banner [ref=e37]:
+    - generic [ref=e40]:
+      - generic [ref=e42]:
+        - generic:
+          - paragraph [ref=e44]: De Segunda a Sexta das 8:00 às 11:00 e 13:00 às 16:00 Horas
+          - paragraph [ref=e46]: De Segunda a Sexta das 8:00 às 11:00 e 13:00 às 16:00 Horas
+      - group "Buscar conteúdo" [ref=e52] [cursor=pointer]:
+        - textbox "Buscar:" [ref=e53]
+        - button "" [ref=e54] [cursor=pointer]
+      - generic [ref=e55]:
+        - button "Português" [ref=e57] [cursor=pointer]:
+          - img [ref=e58] [cursor=pointer]
+          - generic [ref=e59] [cursor=pointer]: Português
+        - generic [ref=e60]:
+          - link "" [ref=e61] [cursor=pointer]:
+            - /url: https://wa.me/5514981980802
+            - generic [ref=e62] [cursor=pointer]: 
+          - link "" [ref=e63] [cursor=pointer]:
+            - /url: https://www.facebook.com/patdegarca
+            - generic [ref=e64] [cursor=pointer]: 
+          - link "" [ref=e65] [cursor=pointer]:
+            - /url: https://instagram.com/desenvolvegarca
+            - generic [ref=e66] [cursor=pointer]: 
+    - navigation [ref=e67]:
+      - generic [ref=e68]:
+        - generic [ref=e69]:
+          - generic [ref=e71]:
+            - link "Secretaria de Desenvolvimento Econômico de GARÇA" [ref=e72] [cursor=pointer]:
+              - /url: https://www.emprega.garca.sp.gov.br/
+              - img "Secretaria de Desenvolvimento Econômico de GARÇA" [ref=e73] [cursor=pointer]
+            - link "Secretaria de Desenvolvimento Econômico de GARÇA" [ref=e75] [cursor=pointer]:
+              - /url: https://www.emprega.garca.sp.gov.br/
+              - heading "Secretaria de Desenvolvimento Econômico de" [level=1] [ref=e76] [cursor=pointer]
+              - strong [ref=e77] [cursor=pointer]: GARÇA
+          - generic [ref=e79]:
+            - generic [ref=e80]: 
+            - link "Vagas de Emprego " [ref=e82] [cursor=pointer]:
+              - /url: https://www.emprega.garca.sp.gov.br/pat
+              - generic [ref=e83] [cursor=pointer]:
+                - paragraph [ref=e84] [cursor=pointer]: Vagas de Emprego
+                - generic [ref=e85] [cursor=pointer]: 
+            - link "Notícias " [ref=e87] [cursor=pointer]:
+              - /url: https://www.emprega.garca.sp.gov.br/noticia/categoria
+              - generic [ref=e88] [cursor=pointer]:
+                - paragraph [ref=e89] [cursor=pointer]: Notícias
+                - generic [ref=e90] [cursor=pointer]: 
+            - link "Expediente " [ref=e92] [cursor=pointer]:
+              - /url: https://www.emprega.garca.sp.gov.br/expediente
+              - generic [ref=e93] [cursor=pointer]:
+                - paragraph [ref=e94] [cursor=pointer]: Expediente
+                - generic [ref=e95] [cursor=pointer]: 
+            - link "Contato " [ref=e97] [cursor=pointer]:
+              - /url: https://www.emprega.garca.sp.gov.br/fale-conosco
+              - generic [ref=e98] [cursor=pointer]:
+                - paragraph [ref=e99] [cursor=pointer]: Contato
+                - generic [ref=e100] [cursor=pointer]: 
+          - generic [ref=e106]:
+            - paragraph [ref=e107]: Clima hoje
+            - generic [ref=e108]: 14°
+            - generic [ref=e109]: 27°
+        - navigation [ref=e113]:
+          - list [ref=e114]:
+            - listitem [ref=e115]:
+              - link "Início" [ref=e116] [cursor=pointer]:
+                - /url: /
+            - listitem [ref=e117]:
+              - link "Sobre nós " [ref=e118] [cursor=pointer]:
+                - /url: "#"
+                - text: Sobre nós
+                - generic [ref=e119] [cursor=pointer]: 
+            - listitem [ref=e120]:
+              - link "Perguntas Frequentes" [ref=e121] [cursor=pointer]:
+                - /url: https://www.emprega.garca.sp.gov.br/informacao/perguntas-frequentes
+            - listitem [ref=e122]:
+              - link "Vagas de Emprego " [ref=e123] [cursor=pointer]:
+                - /url: "#"
+                - text: Vagas de Emprego
+                - generic [ref=e124] [cursor=pointer]: 
+            - listitem [ref=e125]:
+              - link "Vagas de Emprego - PCD" [ref=e126] [cursor=pointer]:
+                - /url: /pat/index/page/1/busca?tipoVaga=2&descricao=&remuneracaoMin=&remuneracaoMax=&btn_busca_tipoVaga=Buscar
+            - listitem [ref=e127]:
+              - link "Notícias" [ref=e128] [cursor=pointer]:
+                - /url: https://www.emprega.garca.sp.gov.br/noticia/categoria
+            - listitem [ref=e129]:
+              - link "TV" [ref=e130] [cursor=pointer]:
+                - /url: https://www.emprega.garca.sp.gov.br/galeria-videos
+            - listitem [ref=e131]:
+              - link "Fale Conosco" [ref=e132] [cursor=pointer]:
+                - /url: https://www.emprega.garca.sp.gov.br/fale-conosco
+          - button "" [ref=e133] [cursor=pointer]:
+            - generic [ref=e135] [cursor=pointer]: 
+  - main [ref=e136]:
+    - generic [ref=e137]:
+      - generic [ref=e139]:
+        - text: 
+        - heading "Acesso Rápido" [level=2] [ref=e140]
+        - generic [ref=e141]: 
+        - group "Buscar serviço" [ref=e144]:
+          - textbox "Buscar serviço:" [ref=e145]
+          - button "" [ref=e146] [cursor=pointer]
+      - generic [ref=e150]:
+        - list [ref=e151]:
+          - listitem [ref=e152] [cursor=pointer]:
+            - text: 
+            - generic [ref=e153] [cursor=pointer]:
+              - generic [ref=e154] [cursor=pointer]: 
+              - generic [ref=e155] [cursor=pointer]:
+                - heading "Cidadão" [level=3] [ref=e156] [cursor=pointer]
+                - paragraph [ref=e157] [cursor=pointer]: Clique para ver os acessos
+          - listitem [ref=e158] [cursor=pointer]:
+            - text: 
+            - generic [ref=e159] [cursor=pointer]:
+              - generic [ref=e160] [cursor=pointer]: 
+              - generic [ref=e161] [cursor=pointer]:
+                - heading "Empresa" [level=3] [ref=e162] [cursor=pointer]
+                - paragraph [ref=e163] [cursor=pointer]: Clique para ver os acessos
+          - listitem [ref=e164] [cursor=pointer]:
+            - text: 
+            - generic [ref=e165] [cursor=pointer]:
+              - generic [ref=e166] [cursor=pointer]: 
+              - generic [ref=e167] [cursor=pointer]:
+                - heading "Servidor" [level=3] [ref=e168] [cursor=pointer]
+                - paragraph [ref=e169] [cursor=pointer]: Clique para ver os acessos
+          - text:  
+        - generic [ref=e170]:
+          - generic [ref=e172]:
+            - paragraph [ref=e173]: "Clique para ser direcionado à página desejada:"
+            - generic [ref=e174]:
+              - link "Calendário de eventos" [ref=e175] [cursor=pointer]:
+                - /url: https://www.emprega.garca.sp.gov.br/evento
+                - paragraph [ref=e176] [cursor=pointer]: Calendário de eventos
+              - link "Contato" [ref=e177] [cursor=pointer]:
+                - /url: https://www.emprega.garca.sp.gov.br/fale-conosco
+                - paragraph [ref=e178] [cursor=pointer]: Contato
+              - link "Expediente" [ref=e179] [cursor=pointer]:
+                - /url: https://www.emprega.garca.sp.gov.br/expediente
+                - paragraph [ref=e180] [cursor=pointer]: Expediente
+              - link "Notícias" [ref=e181] [cursor=pointer]:
+                - /url: https://www.emprega.garca.sp.gov.br/noticia/categoria
+                - paragraph [ref=e182] [cursor=pointer]: Notícias
+              - link "Perguntas Frequentes" [ref=e183] [cursor=pointer]:
+                - /url: https://www.emprega.garca.sp.gov.br/informacao/perguntas-frequentes
+                - paragraph [ref=e184] [cursor=pointer]: Perguntas Frequentes
+              - link "Protocolo" [ref=e185] [cursor=pointer]:
+                - /url: https://www.emprega.garca.sp.gov.br/consulta-protocolo
+                - paragraph [ref=e186] [cursor=pointer]: Protocolo
+              - link "Vagas de Emprego" [ref=e187] [cursor=pointer]:
+                - /url: https://www.emprega.garca.sp.gov.br/pat
+                - paragraph [ref=e188] [cursor=pointer]: Vagas de Emprego
+              - link "Vagas de Emprego - PCD" [ref=e189] [cursor=pointer]:
+                - /url: https://www.emprega.garca.sp.gov.br/pat/index/page/1/busca?tipoVaga=2&descricao=&remuneracaoMin=&remuneracaoMax=&btn_busca_tipoVaga=Buscar
+                - paragraph [ref=e190] [cursor=pointer]: Vagas de Emprego - PCD
+          - text:   
+    - generic [ref=e191]:
+      - generic [ref=e193]:
+        - text: 
+        - heading "Galeria Multimídia" [level=2] [ref=e194]
+        - generic [ref=e195]: 
+        - generic [ref=e196] [cursor=pointer]:
+          - generic [ref=e197] [cursor=pointer]: VER GALERIA DE VÍDEOS
+          - generic [ref=e199] [cursor=pointer]: 
+      - generic [ref=e202]:
+        - figure [ref=e204]:
+          - iframe [ref=e205]:
+            - generic "YouTube Video Player" [ref=f1e3]:
+              - generic [ref=f1e5]:
+                - link "Photo image of King Page - Fábrica de Software" [ref=f1e8] [cursor=pointer]:
+                  - /url: https://www.youtube.com/channel/UCyLatI3bsGd3_dtPp8gylRA?embeds_referring_euri=https%3A%2F%2Femprega.garca.sp.gov.br%2F
+                - link "Instruções para o módulo PAT" [ref=f1e11] [cursor=pointer]:
+                  - /url: https://www.youtube.com/watch?v=g06ovTn4Q6A
+                - button "Share" [ref=f1e13] [cursor=pointer]:
+                  - generic [ref=f1e14] [cursor=pointer]:
+                    - img
+                  - generic [ref=f1e15] [cursor=pointer]: Share
+              - button "Play" [ref=f1e18] [cursor=pointer]:
+                - img
+              - link "Watch on YouTube" [ref=f1e19] [cursor=pointer]:
+                - /url: https://www.youtube.com/watch?v=g06ovTn4Q6A&embeds_referring_euri=https%3A%2F%2Femprega.garca.sp.gov.br%2F
+                - generic [ref=f1e20] [cursor=pointer]: Watch on
+                - generic [ref=f1e21] [cursor=pointer]:
+                  - img
+        - generic "APRENDA A CRIAR SEU CURRÍCULO EM NOSSA PLATAFORMA" [ref=e208] [cursor=pointer]:
+          - generic [ref=e215] [cursor=pointer]: 
+          - generic [ref=e216] [cursor=pointer]:
+            - paragraph [ref=e217] [cursor=pointer]: 14 de Julho de 2021
+            - heading "APRENDA A CRIAR SEU CURRÍCULO EM NOSSA PLATAFORMA" [level=2] [ref=e218] [cursor=pointer]
+    - generic [ref=e224]:
+      - generic [ref=e225]:
+        - link "Conheça nossa iniciativa" [ref=e226] [cursor=pointer]:
+          - /url: /pat-informacao
+          - img "Conheça nossa iniciativa" [ref=e227] [cursor=pointer]
+        - text:  
+      - generic [ref=e228]:
+        - link "Conheça nossa iniciativa" [ref=e229] [cursor=pointer]:
+          - /url: /pat-informacao
+          - img "Conheça nossa iniciativa" [ref=e230] [cursor=pointer]
+        - text:  
+      - link "Conheça nossa iniciativa" [ref=e232] [cursor=pointer]:
+        - /url: /pat-informacao
+        - img "Conheça nossa iniciativa" [ref=e233] [cursor=pointer]
+        - text:  
+      - generic [ref=e234]:
+        - link "Conheça nossa iniciativa" [ref=e235] [cursor=pointer]:
+          - /url: /pat-informacao
+          - img "Conheça nossa iniciativa" [ref=e236] [cursor=pointer]
+        - text:  
+      - generic [ref=e237]:
+        - link "Conheça nossa iniciativa" [ref=e238] [cursor=pointer]:
+          - /url: /pat-informacao
+          - img "Conheça nossa iniciativa" [ref=e239] [cursor=pointer]
+        - text:  
+    - generic [ref=e243]:
+      - generic [ref=e244]:
+        - generic [ref=e246]:
+          - text: 
+          - heading "Calendário de eventos" [level=2] [ref=e247]
+        - generic [ref=e249]:
+          - generic [ref=e250]:
+            - generic [ref=e251]:
+              - generic [ref=e252] [cursor=pointer]: 
+              - paragraph [ref=e253]:
+                - generic [ref=e254]: Setembro
+                - generic [ref=e255]: "2025"
+              - generic [ref=e256] [cursor=pointer]: 
+            - generic:
+              - generic: "1"
+              - generic: "2"
+              - generic: "3"
+              - generic: "4"
+              - generic: "5"
+              - generic: "6"
+              - generic: "7"
+              - generic: "8"
+              - generic: "9"
+              - generic: "10"
+              - generic: "11"
+              - generic: "12"
+            - generic:
+              - generic: "'20"
+              - generic: "'21"
+              - generic: "'22"
+              - generic: "'23"
+              - generic: "'24"
+              - generic: "'25"
+              - generic: "'26"
+              - generic: "'27"
+              - generic: "'28"
+              - generic: "'29"
+              - generic: "'30"
+            - generic [ref=e258]:
+              - paragraph [ref=e260]: DOM
+              - paragraph [ref=e262]: SEG
+              - paragraph [ref=e264]: TER
+              - paragraph [ref=e266]: QUA
+              - paragraph [ref=e268]: QUI
+              - paragraph [ref=e270]: SEX
+              - paragraph [ref=e272]: SÁB
+            - generic [ref=e274]:
+              - paragraph [ref=e276] [cursor=pointer]: "31"
+              - paragraph [ref=e278] [cursor=pointer]: "1"
+              - paragraph [ref=e280] [cursor=pointer]: "2"
+              - paragraph [ref=e282] [cursor=pointer]: "3"
+              - paragraph [ref=e284] [cursor=pointer]: "4"
+              - paragraph [ref=e286] [cursor=pointer]: "5"
+              - paragraph [ref=e288] [cursor=pointer]: "6"
+              - paragraph [ref=e290] [cursor=pointer]: "7"
+              - paragraph [ref=e292] [cursor=pointer]: "8"
+              - paragraph [ref=e294] [cursor=pointer]: "9"
+              - paragraph [ref=e296] [cursor=pointer]: "10"
+              - paragraph [ref=e298] [cursor=pointer]: "11"
+              - paragraph [ref=e300] [cursor=pointer]: "12"
+              - paragraph [ref=e302] [cursor=pointer]: "13"
+              - paragraph [ref=e304] [cursor=pointer]: "14"
+              - paragraph [ref=e306] [cursor=pointer]: "15"
+              - paragraph [ref=e308] [cursor=pointer]: "16"
+              - paragraph [ref=e310] [cursor=pointer]: "17"
+              - paragraph [ref=e312] [cursor=pointer]: "18"
+              - paragraph [ref=e314] [cursor=pointer]: "19"
+              - paragraph [ref=e316] [cursor=pointer]: "20"
+              - paragraph [ref=e318] [cursor=pointer]: "21"
+              - paragraph [ref=e320] [cursor=pointer]: "22"
+              - paragraph [ref=e322] [cursor=pointer]: "23"
+              - paragraph [ref=e324] [cursor=pointer]: "24"
+              - paragraph [ref=e326] [cursor=pointer]: "25"
+              - paragraph [ref=e328] [cursor=pointer]: "26"
+              - paragraph [ref=e330] [cursor=pointer]: "27"
+              - paragraph [ref=e332] [cursor=pointer]: "28"
+              - paragraph [ref=e334] [cursor=pointer]: "29"
+              - paragraph [ref=e336] [cursor=pointer]: "30"
+              - paragraph [ref=e338] [cursor=pointer]: "1"
+              - paragraph [ref=e340] [cursor=pointer]: "2"
+              - paragraph [ref=e342] [cursor=pointer]: "3"
+              - paragraph [ref=e344] [cursor=pointer]: "4"
+          - heading "Sem eventos cadastrados neste mês!" [level=2] [ref=e346]
+      - generic [ref=e347]:
+        - generic [ref=e349]:
+          - text: 
+          - heading "Acompanhe-nos" [level=2] [ref=e350]
+        - iframe [ref=e353]:
+          - generic [ref=f2e3]:
+            - link:
+              - /url: https://www.facebook.com/patdegarca?ref=embed_page
+            - generic [ref=f2e6]:
+              - generic [ref=f2e8]:
+                - 'img "''Secretaria de Desenvolvimento Econômico e Turismo. Rua Barão Do Rio Branco, 295. De esquina com a KZM Turismo e Irene Churros. Setores: - Banco do Povo - PAT - Posto de Atendimento ao Trabalhador - Viabilidade - Área Azul (Administração do sistema do Aplicativo Área Azul) - Turismo''" [ref=f2e10]'
+                - generic [ref=f2e11]:
+                  - link [ref=f2e13] [cursor=pointer]:
+                    - /url: https://www.facebook.com/2091700354384182?ref=embed_page
+                  - generic [ref=f2e14]:
+                    - link "Empregos e Oportunidades em Garça" [ref=f2e16] [cursor=pointer]:
+                      - /url: https://www.facebook.com/2091700354384182?ref=embed_page
+                    - generic [ref=f2e17]: 8,706 followers
+                - generic [ref=f2e18]:
+                  - button "Follow Page" [ref=f2e22] [cursor=pointer]: Follow Page
+                  - link "Share" [ref=f2e24] [cursor=pointer]:
+                    - /url: /sharer/sharer.php?app_id=776730922422337&u=https%3A%2F%2Fwww.facebook.com%2F2091700354384182&display=popup&ref=embed_page&src=page
+                    - button "Share" [ref=f2e25] [cursor=pointer]: Share
+              - generic [ref=f2e33]:
+                - feed [ref=f2e35]:
+                  - generic [ref=f2e38]:
+                    - generic [ref=f2e39]:
+                      - link [ref=f2e44] [cursor=pointer]:
+                        - /url: https://www.facebook.com/photo.php?fbid=1329076715895065&set=a.482813150521430&type=3&ref=embed_page
+                      - generic [ref=f2e46]:
+                        - link [ref=f2e47] [cursor=pointer]:
+                          - /url: https://www.facebook.com/patdegarca?fref=nf&ref=embed_page
+                          - img [ref=f2e50] [cursor=pointer]
+                        - link [ref=f2e53] [cursor=pointer]:
+                          - /url: /patdegarca/posts/1329076725895064?ref=embed_page
+                        - generic [ref=f2e58]:
+                          - generic [ref=f2e59]: Empregos e Oportunidades em Garça
+                          - link "about 2 weeks ago" [ref=f2e60] [cursor=pointer]:
+                            - /url: /patdegarca/posts/1329076725895064?ref=embed_page
+                            - generic [ref=f2e62] [cursor=pointer]: about 2 weeks ago
+                    - table [ref=f2e64]:
+                      - rowgroup [ref=f2e65]:
+                        - row "8 Comment Share" [ref=f2e66]:
+                          - cell "8" [ref=f2e67]:
+                            - button "8" [ref=f2e68]:
+                              - generic "Like" [ref=f2e69] [cursor=pointer]: "8"
+                          - cell "Comment" [ref=f2e71]:
+                            - link "Comment" [ref=f2e72] [cursor=pointer]:
+                              - /url: https://www.facebook.com/patdegarca/posts/1329076725895064?ref=embed_page
+                              - generic "Comment" [ref=f2e73] [cursor=pointer]: Comment
+                          - cell "Share" [ref=f2e75]:
+                            - link "Share" [ref=f2e76] [cursor=pointer]:
+                              - /url: /sharer/sharer.php?u=https%3A%2F%2Fwww.facebook.com%2Fpatdegarca%2Fposts%2F1329076725895064&display=popup&ref=embed_page&src=post
+                              - generic "Share" [ref=f2e77] [cursor=pointer]: Share
+                  - generic [ref=f2e81]:
+                    - generic [ref=f2e82]:
+                      - link [ref=f2e87] [cursor=pointer]:
+                        - /url: https://www.facebook.com/photo.php?fbid=1319712623498141&set=a.482813150521430&type=3&ref=embed_page
+                      - generic [ref=f2e89]:
+                        - link [ref=f2e90] [cursor=pointer]:
+                          - /url: https://www.facebook.com/patdegarca?fref=nf&ref=embed_page
+                          - img [ref=f2e93] [cursor=pointer]
+                        - link [ref=f2e96] [cursor=pointer]:
+                          - /url: /patdegarca/posts/1319712633498140?ref=embed_page
+                        - generic [ref=f2e101]:
+                          - generic [ref=f2e102]: Empregos e Oportunidades em Garça
+                          - link "about a month ago" [ref=f2e103] [cursor=pointer]:
+                            - /url: /patdegarca/posts/1319712633498140?ref=embed_page
+                            - generic [ref=f2e105] [cursor=pointer]: about a month ago
+                    - table [ref=f2e107]:
+                      - rowgroup [ref=f2e108]:
+                        - row "3 Comment Share" [ref=f2e109]:
+                          - cell "3" [ref=f2e110]:
+                            - button "3" [ref=f2e111]:
+                              - generic "Like" [ref=f2e112] [cursor=pointer]: "3"
+                          - cell "Comment" [ref=f2e114]:
+                            - link "Comment" [ref=f2e115] [cursor=pointer]:
+                              - /url: https://www.facebook.com/patdegarca/posts/1319712633498140?ref=embed_page
+                              - generic "Comment" [ref=f2e116] [cursor=pointer]: Comment
+                          - cell "Share" [ref=f2e118]:
+                            - link "Share" [ref=f2e119] [cursor=pointer]:
+                              - /url: /sharer/sharer.php?u=https%3A%2F%2Fwww.facebook.com%2Fpatdegarca%2Fposts%2F1319712633498140&display=popup&ref=embed_page&src=post
+                              - generic "Share" [ref=f2e120] [cursor=pointer]: Share
+                  - generic [ref=f2e124]:
+                    - generic [ref=f2e125]:
+                      - link [ref=f2e130] [cursor=pointer]:
+                        - /url: https://www.facebook.com/photo.php?fbid=1316354323833971&set=a.482813150521430&type=3&ref=embed_page
+                      - generic [ref=f2e132]:
+                        - link [ref=f2e133] [cursor=pointer]:
+                          - /url: https://www.facebook.com/patdegarca?fref=nf&ref=embed_page
+                          - img [ref=f2e136] [cursor=pointer]
+                        - link [ref=f2e139] [cursor=pointer]:
+                          - /url: /patdegarca/posts/1316354343833969?ref=embed_page
+                        - generic [ref=f2e144]:
+                          - generic [ref=f2e145]: Empregos e Oportunidades em Garça
+                          - link "about a month ago" [ref=f2e146] [cursor=pointer]:
+                            - /url: /patdegarca/posts/1316354343833969?ref=embed_page
+                            - generic [ref=f2e148] [cursor=pointer]: about a month ago
+                    - table [ref=f2e150]:
+                      - rowgroup [ref=f2e151]:
+                        - row "4 1 Share" [ref=f2e152]:
+                          - cell "4" [ref=f2e153]:
+                            - button "4" [ref=f2e154]:
+                              - generic "Like" [ref=f2e155] [cursor=pointer]: "4"
+                          - cell "1" [ref=f2e157]:
+                            - link "1" [ref=f2e158] [cursor=pointer]:
+                              - /url: https://www.facebook.com/patdegarca/posts/1316354343833969?ref=embed_page
+                              - generic "Comment" [ref=f2e159] [cursor=pointer]: "1"
+                          - cell "Share" [ref=f2e161]:
+                            - link "Share" [ref=f2e162] [cursor=pointer]:
+                              - /url: /sharer/sharer.php?u=https%3A%2F%2Fwww.facebook.com%2Fpatdegarca%2Fposts%2F1316354343833969&display=popup&ref=embed_page&src=post
+                              - generic "Share" [ref=f2e163] [cursor=pointer]: Share
+                  - generic [ref=f2e167]:
+                    - generic [ref=f2e168]:
+                      - link [ref=f2e173] [cursor=pointer]:
+                        - /url: https://www.facebook.com/photo.php?fbid=1313822700753800&set=a.482813150521430&type=3&ref=embed_page
+                      - generic [ref=f2e175]:
+                        - link [ref=f2e176] [cursor=pointer]:
+                          - /url: https://www.facebook.com/patdegarca?fref=nf&ref=embed_page
+                          - img [ref=f2e179] [cursor=pointer]
+                        - link [ref=f2e182] [cursor=pointer]:
+                          - /url: /patdegarca/posts/1313822707420466?ref=embed_page
+                        - generic [ref=f2e187]:
+                          - generic [ref=f2e188]: Empregos e Oportunidades em Garça
+                          - link "about a month ago" [ref=f2e189] [cursor=pointer]:
+                            - /url: /patdegarca/posts/1313822707420466?ref=embed_page
+                            - generic [ref=f2e191] [cursor=pointer]: about a month ago
+                    - table [ref=f2e193]:
+                      - rowgroup [ref=f2e194]:
+                        - row "1 Comment Share" [ref=f2e195]:
+                          - cell "1" [ref=f2e196]:
+                            - button "1" [ref=f2e197]:
+                              - generic "Like" [ref=f2e198] [cursor=pointer]: "1"
+                          - cell "Comment" [ref=f2e200]:
+                            - link "Comment" [ref=f2e201] [cursor=pointer]:
+                              - /url: https://www.facebook.com/patdegarca/posts/1313822707420466?ref=embed_page
+                              - generic "Comment" [ref=f2e202] [cursor=pointer]: Comment
+                          - cell "Share" [ref=f2e204]:
+                            - link "Share" [ref=f2e205] [cursor=pointer]:
+                              - /url: /sharer/sharer.php?u=https%3A%2F%2Fwww.facebook.com%2Fpatdegarca%2Fposts%2F1313822707420466&display=popup&ref=embed_page&src=post
+                              - generic "Share" [ref=f2e206] [cursor=pointer]: Share
+                  - generic [ref=f2e210]:
+                    - generic [ref=f2e211]:
+                      - button "Play video" [ref=f2e227] [cursor=pointer]
+                      - generic [ref=f2e229]:
+                        - generic [ref=f2e230]:
+                          - link [ref=f2e231] [cursor=pointer]:
+                            - /url: https://www.facebook.com/patdegarca?fref=nf&ref=embed_page
+                            - img [ref=f2e234] [cursor=pointer]
+                          - link [ref=f2e237] [cursor=pointer]:
+                            - /url: /reel/1572203130425518/?ref=embed_page
+                          - generic [ref=f2e242]:
+                            - generic [ref=f2e243]: Empregos e Oportunidades em Garça
+                            - link "about a month ago" [ref=f2e244] [cursor=pointer]:
+                              - /url: /reel/1572203130425518/?ref=embed_page
+                              - generic [ref=f2e246] [cursor=pointer]: about a month ago
+                        - generic [ref=f2e247]:
+                          - paragraph [ref=f2e248]: Última semana do Curso de Fundamentos de Instalações Elétricas Residenciais.
+                          - paragraph [ref=f2e249]: Parceria forte com Sebrae em mais um curso de capacitação e qualificação para nossos munícipes.
+                    - table [ref=f2e251]:
+                      - rowgroup [ref=f2e252]:
+                        - row "2 Comment Share" [ref=f2e253]:
+                          - cell "2" [ref=f2e254]:
+                            - button "2" [ref=f2e255]:
+                              - generic "Like" [ref=f2e256] [cursor=pointer]: "2"
+                          - cell "Comment" [ref=f2e258]:
+                            - link "Comment" [ref=f2e259] [cursor=pointer]:
+                              - /url: https://www.facebook.com/reel/1572203130425518/?ref=embed_page
+                              - generic "Comment" [ref=f2e260] [cursor=pointer]: Comment
+                          - cell "Share" [ref=f2e262]:
+                            - link "Share" [ref=f2e263] [cursor=pointer]:
+                              - /url: /sharer/sharer.php?u=https%3A%2F%2Fwww.facebook.com%2Freel%2F1572203130425518%2F&display=popup&ref=embed_page&src=post
+                              - generic "Share" [ref=f2e264] [cursor=pointer]: Share
+                - progressbar [ref=f2e267]
+                - link "Find us on Facebook" [ref=f2e268] [cursor=pointer]:
+                  - /url: https://www.facebook.com/2091700354384182?ref=embed_page
+                  - generic [ref=f2e270] [cursor=pointer]: Find us on Facebook
+  - contentinfo [ref=e355]:
+    - generic [ref=e357]:
+      - generic [ref=e358]:
+        - generic [ref=e360]:
+          - link "Secretaria de Desenvolvimento Econômico de GARÇA" [ref=e361] [cursor=pointer]:
+            - /url: /
+            - img "Secretaria de Desenvolvimento Econômico de GARÇA" [ref=e362] [cursor=pointer]
+          - link "Secretaria de Desenvolvimento Econômico de GARÇA" [ref=e364] [cursor=pointer]:
+            - /url: /
+            - paragraph [ref=e365] [cursor=pointer]: Secretaria de Desenvolvimento Econômico de
+            - strong [ref=e366] [cursor=pointer]: GARÇA
+          - generic [ref=e368]:
+            - paragraph [ref=e369]: "CNPJ: 44.518.371/0001-35"
+            - paragraph [ref=e370]: Prefeitura Municipal de Garça
+        - generic [ref=e372]:
+          - generic [ref=e374]:
+            - paragraph [ref=e376]: Cidadão
+            - generic [ref=e377]:
+              - link "Calendário de eventos" [ref=e378] [cursor=pointer]:
+                - /url: https://www.emprega.garca.sp.gov.br/evento
+                - paragraph [ref=e379] [cursor=pointer]: Calendário de eventos
+              - link "Contato" [ref=e380] [cursor=pointer]:
+                - /url: https://www.emprega.garca.sp.gov.br/fale-conosco
+                - paragraph [ref=e381] [cursor=pointer]: Contato
+              - link "Expediente" [ref=e382] [cursor=pointer]:
+                - /url: https://www.emprega.garca.sp.gov.br/expediente
+                - paragraph [ref=e383] [cursor=pointer]: Expediente
+              - link "Notícias" [ref=e384] [cursor=pointer]:
+                - /url: https://www.emprega.garca.sp.gov.br/noticia/categoria
+                - paragraph [ref=e385] [cursor=pointer]: Notícias
+              - link "Perguntas Frequentes" [ref=e386] [cursor=pointer]:
+                - /url: https://www.emprega.garca.sp.gov.br/informacao/perguntas-frequentes
+                - paragraph [ref=e387] [cursor=pointer]: Perguntas Frequentes
+              - link "Protocolo" [ref=e388] [cursor=pointer]:
+                - /url: https://www.emprega.garca.sp.gov.br/consulta-protocolo
+                - paragraph [ref=e389] [cursor=pointer]: Protocolo
+              - link "Vagas de Emprego" [ref=e390] [cursor=pointer]:
+                - /url: https://www.emprega.garca.sp.gov.br/pat
+                - paragraph [ref=e391] [cursor=pointer]: Vagas de Emprego
+              - link "Vagas de Emprego - PCD" [ref=e392] [cursor=pointer]:
+                - /url: https://www.emprega.garca.sp.gov.br/pat/index/page/1/busca?tipoVaga=2&descricao=&remuneracaoMin=&remuneracaoMax=&btn_busca_tipoVaga=Buscar
+                - paragraph [ref=e393] [cursor=pointer]: Vagas de Emprego - PCD
+          - generic [ref=e395]:
+            - paragraph [ref=e397]: Empresa
+            - link "Quero divulgar uma vaga de emprego" [ref=e399] [cursor=pointer]:
+              - /url: https://www.emprega.garca.sp.gov.br/pagina/2/quero-divulgar-uma-vaga-de-emprego
+              - paragraph [ref=e400] [cursor=pointer]: Quero divulgar uma vaga de emprego
+          - generic [ref=e402]:
+            - paragraph [ref=e404]: Servidor
+            - link "E-mail" [ref=e406] [cursor=pointer]:
+              - /url: https://webmail.instaremail3.com.br/
+              - paragraph [ref=e407] [cursor=pointer]: E-mail
+        - generic [ref=e409]:
+          - generic [ref=e410]:
+            - generic [ref=e412]:
+              - generic [ref=e414]:
+                - paragraph [ref=e416]: De Segunda a Sexta das 8:00 às 11:00 e 13:00 às 16:00 Horas
+                - paragraph [ref=e418]: De Segunda a Sexta das 8:00 às 11:00 e 13:00 às 16:00 Horas
+              - generic [ref=e419]: 
+            - generic [ref=e421]:
+              - paragraph [ref=e422]:
+                - text: Rua Barão do Rio Branco, 295, Ferrarópolis
+                - generic [ref=e423]: "CEP: 17400-082"
+              - generic [ref=e424]: 
+            - generic [ref=e426]:
+              - paragraph [ref=e427]: (14) 3407-6600
+              - generic [ref=e428]: 
+            - generic [ref=e430]:
+              - paragraph [ref=e431]:
+                - link "patgarca@sde.sp.gov.br" [ref=e432] [cursor=pointer]:
+                  - /url: mailto:patgarca@sde.sp.gov.br
+              - generic [ref=e433]: 
+            - link "Webmail" [ref=e436] [cursor=pointer]:
+              - /url: https://webmail.instaremail3.com.br/
+              - paragraph [ref=e437] [cursor=pointer]: Webmail
+            - link "Ver Localização" [ref=e440] [cursor=pointer]:
+              - /url: /fale-conosco/
+              - paragraph [ref=e441] [cursor=pointer]: Ver Localização
+          - generic [ref=e442]:
+            - paragraph [ref=e443]: "Siga nas redes sociais:"
+            - generic [ref=e444]:
+              - link "" [ref=e445] [cursor=pointer]:
+                - /url: https://wa.me/5514981980802
+                - generic [ref=e446] [cursor=pointer]: 
+              - link "" [ref=e447] [cursor=pointer]:
+                - /url: https://www.facebook.com/patdegarca
+                - generic [ref=e448] [cursor=pointer]: 
+              - link "" [ref=e449] [cursor=pointer]:
+                - /url: https://instagram.com/desenvolvegarca
+                - generic [ref=e450] [cursor=pointer]: 
+            - generic [ref=e451]:
+              - link "Termos e condições gerais de uso" [ref=e452] [cursor=pointer]:
+                - /url: /termos-e-condicoes-gerais-de-uso/
+              - link "Políticas de cookies" [ref=e453] [cursor=pointer]:
+                - /url: /politicas-de-cookies/
+            - link "Lei Geral de Proteção de Dados" [ref=e455] [cursor=pointer]:
+              - /url: /lgpd/
+      - text: 
+      - generic [ref=e458]:
+        - paragraph [ref=e460]:
+          - generic [ref=e461]: 
+          - text: "Versão do sistema: 2.0.0 - 26/09/2025"
+        - paragraph [ref=e463]:
+          - generic [ref=e464]: 
+          - text: "Portal atualizado em: 26/09/2025 10:12:43"
+      - generic [ref=e467]:
+        - paragraph [ref=e470]:
+          - text: Copyright 2025 - Secretaria de Desenvolvimento Econômico de
+          - generic [ref=e471]: GARÇA
+          - text: "- Todos os direitos reservados."
+        - 'link "Logo Kingpage: Fábrica de Software" [ref=e473] [cursor=pointer]':
+          - /url: https://kingpage.com.br/
+          - 'img "Logo Kingpage: Fábrica de Software" [ref=e474] [cursor=pointer]'
+  - generic [ref=e477]:
+    - paragraph [ref=e479]:
+      - text: Secretaria de Desenvolvimento Econômico de GARÇA - SP.
+      - text: Usamos cookies para melhorar a sua navegação. Ao continuar você concorda com nossa
+      - strong [ref=e480]:
+        - link "Políticas de cookies" [ref=e481] [cursor=pointer]:
+          - /url: /politicas-de-cookies/
+      - text: e
+      - strong [ref=e482]:
+        - link "Termos e condições gerais de uso" [ref=e483] [cursor=pointer]:
+          - /url: /termos-e-condicoes-gerais-de-uso/
+      - text: .
+    - generic [ref=e484]:
+      - link "Aceitar" [ref=e485] [cursor=pointer]:
+        - /url: javascript:void(0);
+      - link "Personalizar" [ref=e486] [cursor=pointer]:
+        - /url: javascript:void(0);
+      - link "Rejeitar" [ref=e487] [cursor=pointer]:
+        - /url: javascript:void(0);
+  - img [ref=e490]
+```
