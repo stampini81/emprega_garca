@@ -4,15 +4,17 @@
   "description": "Este repositório contém o estudo de caso, scripts e resultados dos testes automatizados para o site emprega.garca.gov.br.",
   "main": "index.js",
   "scripts": {
-  "test": "npx playwright test",
-  "test:playwright": "npx playwright test"
+    "test": "npx playwright test",
+    "test:playwright": "npx playwright test"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "@playwright/test": "^1.55.0",
-  "playwright": "^1.55.0",
-  "tesseract.js": "^4.1.1"
+    "cypress": "^15.3.0",
+    "mochawesome": "^7.1.4",
+    "playwright": "^1.55.0",
+    "tesseract.js": "^4.1.1"
   }
 }
