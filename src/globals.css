@@ -2,6 +2,27 @@
 @tailwind components;
 @tailwind utilities;
 
+* {
+  font-family: 'Montserrat';
+}
+
 :root {
   --primary: #f7f6f2;
 }
+
+.embla__container {
+  display: flex;
+}
+.embla__slide {
+  height: 580px;
+  width: 100vw;
+}
+/**
+.embla__slide:nth-child(1) {
+  flex: 0 0 30%;
+  min-width: 0;
+}
+.embla__slide:nth-child(2) {
+  flex: 0 0 60%; 
+  min-width: 0;
+} */

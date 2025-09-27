@@ -75,6 +75,10 @@ module.exports = {
         'accordion-down': 'accordion-down 0.2s ease-out',
         'accordion-up': 'accordion-up 0.2s ease-out',
       },
+      backgroundImage: {
+        'banner-1': "url('/banner-1.jpg')",
+        'footer-texture': "url('/img/footer-texture.png')",
+      },
     },
   },
   plugins: [require('tailwindcss-animate')],
