@@ -1,4 +1,4 @@
-import { Carousel } from '@/components/carousel/carousel';
+import { Carousel } from '@/components/ui/carousel/carousel';
 import { HeaderLogo } from '@/components/ui/header/header-logo';
 import { Navbar } from '@/components/ui/navbar/navbar';
 import { TopBar } from '@/components/ui/topbar/top-bar';
