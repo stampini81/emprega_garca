@@ -62,7 +62,7 @@ pnpm install --frozen-lockfile
 4. Introduzir ambientes (ex: `.env.production`) para API base.
 
 ### 8. Equipe de Teste
-Autores da validação e correções iniciais: **Equipe de Teste – jacksonfive**
+Autores da validação e correções iniciais: **Equipe de Teste – JacksonFive**
 
 ---
 
