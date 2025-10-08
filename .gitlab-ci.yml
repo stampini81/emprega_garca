@@ -1,0 +1,48 @@
+stages:
+  - install
+  - validate
+  - build
+
+.default_job_template: &default_job
+  image: node:20-alpine
+  cache:
+    key: ${CI_COMMIT_REF_SLUG}
+    paths:
+      - node_modules/
+  before_script:
+    - npm ci
+
+install:deps:
+  stage: install
+  <<: *default_job
+  script:
+    - echo "Dependencies installed"
+  rules:
+    - if: $CI_COMMIT_BRANCH == "test/validation-run"
+
+lint:eslint:
+  stage: validate
+  <<: *default_job
+  script:
+    - npm run lint
+  rules:
+    - if: $CI_COMMIT_BRANCH == "test/validation-run"
+
+validate:types:
+  stage: validate
+  <<: *default_job
+  script:
+    - npx tsc --noEmit
+  rules:
+    - if: $CI_COMMIT_BRANCH == "test/validation-run"
+
+build:app:
+  stage: build
+  <<: *default_job
+  script:
+    - npm run build
+  artifacts:
+    paths:
+      - dist
+  rules:
+    - if: $CI_COMMIT_BRANCH == "test/validation-run"
