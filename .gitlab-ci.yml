@@ -9,8 +9,11 @@ stages:
     key: ${CI_COMMIT_REF_SLUG}
     paths:
       - node_modules/
+      - .pnpm-store/
   before_script:
-    - npm ci
+    - corepack enable
+    - corepack prepare pnpm@latest --activate
+    - pnpm install --frozen-lockfile
 
 install:deps:
   stage: install
@@ -24,7 +27,7 @@ lint:eslint:
   stage: validate
   <<: *default_job
   script:
-    - npm run lint
+    - pnpm run lint
   rules:
     - if: $CI_COMMIT_BRANCH == "test/validation-run"
 
@@ -40,7 +43,7 @@ build:app:
   stage: build
   <<: *default_job
   script:
-    - npm run build
+    - pnpm run build
   artifacts:
     paths:
       - dist

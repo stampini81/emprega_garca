@@ -31,8 +31,15 @@ Decisão: Optou-se por desabilitar a regra nos 3 arquivos por priorizar velocida
 
 ### 4. Workflow de CI
 Gatilhos: push e pull_request na branch `test/validation-run`.
-Etapas: `npm ci` → `npx tsc --noEmit` → `npm run lint` → `npm run build`.
+ Etapas: `pnpm install --frozen-lockfile` → `npx tsc --noEmit` → `pnpm run lint` → `pnpm run build`.
 
+Nota: o repositório usa pnpm. Se sua runner/ambiente não tiver pnpm disponível, habilite o Corepack e prepare pnpm antes da instalação:
+
+```bash
+corepack enable
+corepack prepare pnpm@latest --activate
+pnpm install --frozen-lockfile
+```
 ### 5. Commits Principais
 | Hash (abreviado) | Mensagem |
 |------------------|----------|
