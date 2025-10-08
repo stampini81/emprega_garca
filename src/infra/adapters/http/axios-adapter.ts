@@ -22,7 +22,7 @@ export interface HttpClient {
 
 export class AxiosHttpClientAdapter implements HttpClient {
   public async request<T>({ endpoint, method, headers, body }: requestPayload): Promise<{ statusCode: number; data?: T | undefined; }> {
-    let axiosResponse: AxiosResponse;
+  let axiosResponse: AxiosResponse;
 
     try {
       axiosResponse = await axiosInstance.request({
@@ -30,18 +30,17 @@ export class AxiosHttpClientAdapter implements HttpClient {
         method,
         headers,
         data: body
-      })
-    }
-    catch (error) {
-      let _error = error as AxiosError<{ message: string }>
+      });
+    } catch (error) {
+      const _error = error as AxiosError<{ message: string }>;
       throw new Error(_error?.response?.data.message);
     }
 
     return {
       statusCode: axiosResponse.status,
       data: axiosResponse?.data
-    }
-  };
+    };
+  }
 
   public async uploadFile<T>({ endpoint, fields, file, headers }: uploadFilePayload): Promise<{ statusCode: number; data?: T | undefined; }> {
     let axiosResponse: AxiosResponse;
@@ -63,8 +62,7 @@ export class AxiosHttpClientAdapter implements HttpClient {
         }
       });
     } catch (error) {
-      console
-      let _error = error as AxiosError<{ message: string }>;
+      const _error = error as AxiosError<{ message: string }>;
       throw new Error(_error?.response?.data.message);
     }
 
