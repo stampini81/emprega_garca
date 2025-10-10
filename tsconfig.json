@@ -12,19 +12,20 @@
       ]
     },
 
-    /* Bundler mode */
-    "moduleResolution": "bundler",
-    "allowImportingTsExtensions": true,
-    "resolveJsonModule": true,
-    "isolatedModules": true,
-    "noEmit": true,
-    "jsx": "react-jsx",
+  /* Bundler mode */
+  "moduleResolution": "bundler",
+  "allowImportingTsExtensions": true,
+  "resolveJsonModule": true,
+  "isolatedModules": true,
+  "noEmit": true,
+  "jsx": "react-jsx",
+  "types": ["vitest/globals"],
 
-    /* Linting */
-    "strict": true,
-    "noUnusedLocals": true,
-    "noUnusedParameters": true,
-    "noFallthroughCasesInSwitch": true
+  /* Linting */
+  "strict": true,
+  "noUnusedLocals": true,
+  "noUnusedParameters": true,
+  "noFallthroughCasesInSwitch": true
   },
   "include": ["src"],
   "references": [{ "path": "./tsconfig.node.json" }]

@@ -4,6 +4,9 @@ variables:
   PNPM_STORE_DIR: .pnpm-store
   COREPACK_ENABLE_STRICT: 0
 
+before_script:
+  - *setup_pnpm
+
 cache:
   key: ${CI_COMMIT_REF_SLUG}-pnpm
   paths:
