@@ -28,7 +28,14 @@ install:
     - if: '$CI_COMMIT_BRANCH == "test/validation-run" || $CI_COMMIT_BRANCH == "main" || $CI_COMMIT_BRANCH == "develop"'
   script:
     - *setup_pnpm
-    - pnpm install --frozen-lockfile
+    - |
+      # Use --no-frozen-lockfile for the validation-run branch to avoid failures
+      # when the lockfile is intentionally out-of-sync for quick validations.
+      if [ "$CI_COMMIT_BRANCH" = "test/validation-run" ]; then
+        pnpm install --no-frozen-lockfile
+      else
+        pnpm install --frozen-lockfile
+      fi
 
 typecheck:
   stage: typecheck
