@@ -1,5 +1,8 @@
 # emprega-garca-frontend
 
+[![GitLab pipeline status](https://gitlab.com/frontend9554237/emprega-garca-frontend/badges/test/validation-run/pipeline.svg)](https://gitlab.com/frontend9554237/emprega-garca-frontend/-/pipelines?ref=test%2Fvalidation-run)
+[![CI](https://github.com/OWNER/REPO/actions/workflows/ci.yml/badge.svg)](https://github.com/OWNER/REPO/actions/workflows/ci.yml)
+
 ## Relatório de Validação e Correções (Branch: `test/validation-run`)
 
 Este documento descreve os problemas encontrados durante a primeira execução de validação (TypeScript + ESLint) e as ações tomadas para corrigi-los.
@@ -60,6 +63,23 @@ pnpm install --frozen-lockfile
 2. Adicionar testes (ex: Vitest + React Testing Library) e step `test` no CI.
 3. Configurar badge de status de pipeline no topo deste README.
 4. Introduzir ambientes (ex: `.env.production`) para API base.
+
+### Notas adicionais
+- Testes: `pnpm test` roda unidade com Vitest; `pnpm test:coverage` gera cobertura.
+- Variáveis de ambiente: copie `.env.example` para `.env.local` e ajuste `VITE_API_URL`. Para produção, use `.env.production`.
+- Badge: substitua OWNER/REPO pela organização e repositório corretos.
+
+### Como validar
+- GitLab CI: acesse a página de pipelines da branch `test/validation-run`:
+	https://gitlab.com/frontend9554237/emprega-garca-frontend/-/pipelines?ref=test%2Fvalidation-run
+- Localmente (Windows PowerShell):
+	```powershell
+	pnpm install
+	pnpm exec tsc --noEmit
+	pnpm lint
+	pnpm test -- --run
+	pnpm build
+	```
 
 ### 8. Equipe de Teste
 Autores da validação e correções iniciais: **Equipe de Teste – JacksonFive**

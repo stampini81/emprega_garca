@@ -1,51 +1,63 @@
+image: node:20
+
+variables:
+  PNPM_STORE_DIR: .pnpm-store
+  COREPACK_ENABLE_STRICT: 0
+
+cache:
+  key: ${CI_COMMIT_REF_SLUG}-pnpm
+  paths:
+    - .pnpm-store/
+    - node_modules/
+
 stages:
   - install
-  - validate
+  - typecheck
+  - lint
+  - test
   - build
 
-.default_job_template: &default_job
-  image: node:20-alpine
-  cache:
-    key: ${CI_COMMIT_REF_SLUG}
-    paths:
-      - node_modules/
-      - .pnpm-store/
-  before_script:
-    - corepack enable
-    - corepack prepare pnpm@latest --activate
+.setup_pnpm: &setup_pnpm |
+  corepack enable
+  corepack prepare pnpm@latest --activate
+  pnpm --version
+
+install:
+  stage: install
+  rules:
+    - if: '$CI_COMMIT_BRANCH == "test/validation-run" || $CI_COMMIT_BRANCH == "main" || $CI_COMMIT_BRANCH == "develop"'
+  script:
+    - *setup_pnpm
     - pnpm install --frozen-lockfile
 
-install:deps:
-  stage: install
-  <<: *default_job
-  script:
-    - echo "Dependencies installed"
+typecheck:
+  stage: typecheck
+  needs: ["install"]
   rules:
-    - if: $CI_COMMIT_BRANCH == "test/validation-run"
-
-lint:eslint:
-  stage: validate
-  <<: *default_job
-  script:
-    - pnpm run lint
-  rules:
-    - if: $CI_COMMIT_BRANCH == "test/validation-run"
-
-validate:types:
-  stage: validate
-  <<: *default_job
+    - if: '$CI_COMMIT_BRANCH == "test/validation-run" || $CI_COMMIT_BRANCH == "main" || $CI_COMMIT_BRANCH == "develop"'
   script:
     - npx tsc --noEmit
-  rules:
-    - if: $CI_COMMIT_BRANCH == "test/validation-run"
 
-build:app:
+lint:
+  stage: lint
+  needs: ["install"]
+  rules:
+    - if: '$CI_COMMIT_BRANCH == "test/validation-run" || $CI_COMMIT_BRANCH == "main" || $CI_COMMIT_BRANCH == "develop"'
+  script:
+    - pnpm run lint
+
+test:
+  stage: test
+  needs: ["install"]
+  rules:
+    - if: '$CI_COMMIT_BRANCH == "test/validation-run" || $CI_COMMIT_BRANCH == "main" || $CI_COMMIT_BRANCH == "develop"'
+  script:
+    - pnpm run test -- --run
+
+build:
   stage: build
-  <<: *default_job
+  needs: ["install"]
+  rules:
+    - if: '$CI_COMMIT_BRANCH == "test/validation-run" || $CI_COMMIT_BRANCH == "main" || $CI_COMMIT_BRANCH == "develop"'
   script:
     - pnpm run build
-  artifacts:
-    paths:
-      - dist
-  rules:
-    - if: $CI_COMMIT_BRANCH == "test/validation-run"

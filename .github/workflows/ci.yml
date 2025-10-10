@@ -1,15 +1,13 @@
-name: CI Validation
+name: CI
 
 on:
   push:
-    branches:
-      - test/validation-run
+    branches: [ main, develop, master ]
   pull_request:
-    branches:
-      - test/validation-run
+    branches: [ main, develop, master ]
 
 jobs:
-  validate:
+  build-and-test:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
