@@ -4,6 +4,11 @@ variables:
   PNPM_STORE_DIR: .pnpm-store
   COREPACK_ENABLE_STRICT: 0
 
+.setup_pnpm: &setup_pnpm |
+  corepack enable
+  corepack prepare pnpm@latest --activate
+  pnpm --version
+
 before_script:
   - *setup_pnpm
 
@@ -19,11 +24,6 @@ stages:
   - lint
   - test
   - build
-
-.setup_pnpm: &setup_pnpm |
-  corepack enable
-  corepack prepare pnpm@latest --activate
-  pnpm --version
 
 install:
   stage: install
