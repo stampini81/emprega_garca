@@ -25,4 +25,4 @@ dist-ssr
 
 .env
 
-src/constants/api.ts
+src/constants/api.ts\n# pnpm: ignore npm lockfile\npackage-lock.json
