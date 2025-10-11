@@ -1,7 +1,7 @@
 # emprega-garca-frontend
 
 [![GitLab pipeline status](https://gitlab.com/frontend9554237/emprega-garca-frontend/badges/test/validation-run/pipeline.svg)](https://gitlab.com/frontend9554237/emprega-garca-frontend/-/pipelines?ref=test%2Fvalidation-run)
-[![CI](https://github.com/OWNER/REPO/actions/workflows/ci.yml/badge.svg)](https://github.com/OWNER/REPO/actions/workflows/ci.yml)
+
 
 ## Relatório de Validação e Correções (Branch: `test/validation-run`)
 
