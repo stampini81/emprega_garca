@@ -1,6 +1,4 @@
-Claro, aqui está um relatório detalhado em formato Markdown, com base nos logs e imagens que você forneceu. Você pode copiar e colar este texto para enviar ao seu gestor.
 
----
 
 # Relatório de Execução do Pipeline CI/CD
 
